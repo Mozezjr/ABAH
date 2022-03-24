@@ -1,3 +1,237 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Inspiration&family=M+PLUS+1p:wght@300&family=Open+Sans&family=PT+Sans:ital@1&family=Roboto:wght@300&family=Source+Sans+Pro:wght@300&display=swap');
+ * {
+     margin: 0;
+     padding: 0;
+ }
+ 
+ body {
+     box-sizing: border-box;
+     font-family: 'Roboto', sans-serif;
+     width: 100%;
+     background: url("../images/bg.gif");
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+     background-attachment: fixed;
+ }
+ /* Service section */
+ 
+ .Services h4 {
+     color: black;
+ }
+ 
+ .card1 {
+     border-bottom: none;
+     border-top: none;
+ }
+ 
+ .card2 {
+     border: none;
+ }
+ 
+ .card1:hover {
+     border-bottom: 2px solid rgb(186, 186, 189);
+     border-top: 2px solid rgb(31, 31, 32);
+     transition: all ease 0.2s;
+ }
+ 
+ .service-pricing {
+     background-color: rgb(175, 175, 168);
+     border-radius: 4px;
+ }
+ 
+ .collabaration {
+     background-color: rgb(247, 247, 232);
+ }
+ 
+ .services-content i {
+     font-size: 50px;
+ }
+ 
+ .card3 {
+     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+     border: none;
+     border-radius: 10px;
+ }
+ 
+ .card3 h5 {
+     color: black;
+ }
+ 
+ .card3 img {
+     border-radius: 10px;
+ }
+ 
+ .card3 p {
+     font-weight: 500;
+     color: black;
+ }
+ 
+ .card3 i {
+     font-size: 15px;
+     color: rgb(155, 153, 153);
+ }
+ 
+ #card3-span {
+     font-size: 20px;
+     font-weight: bold;
+     color: black;
+ }
+ 
+ .col-4 i {
+     font-size: 50px;
+     margin-top: 45%;
+ }
+ 
+ .Testimonial-section {
+     background: url("../images/bgg2.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+     background-attachment: fixed;
+     height: 50vh;
+     width: 100%;
+ }
+ 
+ .Testimonial-section h3 {
+     color: black;
+     font-size: 20px;
+ }
+ 
+ .Testimonial-section h5 {
+     color: #CFCFCF;
+     font-size: 25px;
+     font-family: 'Source Sans Pro', sans-serif;
+ }
+ 
+ .sirFelix {
+     margin-top: 5%;
+ }
+ 
+ .service-pricing {
+     background: url("../images/bg1.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+     background-attachment: fixed;
+     width: 100%;
+ }
+ 
+ .Services h5 {
+     font-family: 'Source Sans Pro', sans-serif;
+ }
+ /* End of service Style */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.title {
+  background-color: rgb(170, 168, 168);
+  padding: 1%;
+  text-align: center;
+}
+
+.infl{
+  /* background-color: rgb(170, 168, 168); */
+  padding: 1%;
+  text-align: center;
+}
+
+.categories {
+  display: flex;
+  justify-content: space-around;
+  padding: 4%;
+
+}
+
+.lifestyle p,
+.entertainment p,
+.fashion p {
+    font-size: larger;
+  padding: 10%;
+  text-align: center;
+}
+
+.section {
+  height: 95vh;
+  display: block;
+  padding-bottom: 40px;
+  background-color: lightgrey
+}
+
+.sub-section1,
+.sub-section2 {
+  display: flex;
+  justify-content: space-around;
+  padding: 2%;
+}
+
+
+
+.profile {
+  display: flex;
+  justify-content: space-around;
+  padding: 3%;
+  display: none;
+  padding-top: 30px;
+}
+
+.image{
+  float: right;
+}
+
+.details {
+  font-size: larger;
+  padding-top: 3%;
+ 
+
+}
+
+.fb,
+.twitter,
+.ig,
+.yt {
+  display: flex;
+}
+
+.fb p,
+.twitter p,
+.ig p,
+.yt p {
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+footer{
+  background-color: rgb(139, 137, 137);
+  padding: 1%;
+  text-align: center;
+  color: white;
+  
+}
+
+@media screen and (max-width: 768px) {
+  .categories{
+    display: block;
+  }
+
+  .sub-section1, .sub-section2{
+    display: block;
+  }
+  image{
+    height: 300px;
+  }
+}
+
+
+  
+
 /* Navbar styling */
 .topnav {
     overflow: hidden;
@@ -22,6 +256,11 @@
     background-color: #04AA6D;
     color: white;
   }
+  .logo img{
+  position: absolute;
+  margin-top: 12px;
+  margin-left: 0px;
+  }
   /* body styling */
   header {
     background-image: url("../images/img-3.jpg");
@@ -32,6 +271,9 @@
     height: 100vh;
     width: 100%;
     position: relative;
+  }
+  .center {
+    padding: 200px 0 200px;
   }
   
   
@@ -199,3 +441,4 @@
   border-radius: 2px;
   color: #fff;
 }
+
